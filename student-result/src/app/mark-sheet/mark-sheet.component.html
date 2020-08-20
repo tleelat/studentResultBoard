@@ -1,0 +1,31 @@
+<h1 class="title1"> Welcome to student result board
+</h1>
+
+<h2 class="title2"> Student marks sheet </h2>
+
+<table class="table table-striped marks">
+    <thead>
+        <tr class="col-header">
+            <th scope="col">Student Name</th>
+            <th scope="col"> Roll Number </th>
+            <th scope="col"> Total Marks </th>
+            <th scope="col"> Status </th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let detail of details ">
+        <tr *ngFor="let studetails of detail" [ngClass]= "studetails.status">
+            <td>{{ studetails.name }}</td>
+            <td>{{ studetails.rollNumber }}</td>
+            <td> {{ studetails.totalmarks }}</td>
+            <td> {{ studetails.status }}   </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<nav>
+    <ul>
+      <li><a routerLink="../admissions"> Go to admissions page </a></li>
+    </ul>
+</nav>
+  <router-outlet></router-outlet>

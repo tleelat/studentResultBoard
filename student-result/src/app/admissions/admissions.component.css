@@ -1,0 +1,24 @@
+.admin {
+    padding: 20px;
+}
+
+.title {
+    font-style: bold;
+    margin-left : 100px;
+} 
+
+.form {
+    margin-left : 200px;
+    padding : 160px;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    outline: auto;
+    margin-left: 100px;
+    padding-left: 107px;
+    margin-top: 25px;
+}
+
+.submit {
+    margin-top: 45px;
+}

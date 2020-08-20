@@ -1,0 +1,35 @@
+.title1{
+    font-family: fantasy;
+    font-variant-caps: all-petite-caps;
+    /* font-weight: unset; */
+    padding-left: 425px
+}
+
+.title2{
+    font-variant: small-caps;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+
+.marks{
+    margin-top: 23px;
+    width: 50%;
+    margin-left: 68px;
+}
+
+.col-header {
+    font-style: italic;
+}
+
+/* .row-data {
+    color: red ;
+} */
+
+.pass {
+    color: green ;
+}
+
+.fail {
+    color: red ;
+}
